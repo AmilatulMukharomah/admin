@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-top: 20px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.gambar {
+  height: 50px;
+  width: 50px;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: 50px;
+  margin-right: 50px;
+  align-items: center;
+}
+
+.nama{
+  margin-left: 10px;
+}
+
+.search{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.garis{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* INI BUAT TOP BAR */
+
+.topbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.icon{
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  
+}
+
+.views, .comments, .posts{
+  height: 80px;
+  width: 300px;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+}
+
+.views{
+  background-image: linear-gradient(to right, #755cc1 , #ac7fda);
+  
+  
+}
+
+.inviews{
+  display: flex;
+  align-items: flex-start;
+}
+
+.inviews span{
+  margin-left: 10px;
+}
+
+.outviews{
+  margin-left: 60px;
+}
+
+.comments{
+  background-image: linear-gradient(to right, #dc474d , #f58aa4);
+}
+
+.posts{
+  background-image: linear-gradient(to right, #d08d24 , #f7c83e);
+}
+
+.isi{
+  margin-top: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.grafik{
+  background-color: white;
+  box-shadow: 0px 10px 10px rgb(220, 220, 220);
+  border-radius: 20px;
+  height: 300px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  flex-grow: 3;
+  margin-right: 30px;
+  font-size: 25px;
+  
+}
+
+/* INI BUAT RECENT */
+
+.recent{
+  background-color: white;
+  border-radius: 20px;
+  height: 300px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  box-shadow: 0px 10px 10px rgb(220, 220, 220);
+}
+
+.judul{
+  font-size: 25px;
+}
+
+
+
+
+/* INI BUAT TABEL */
+
+table{
+  border: none;
+}
+
+.tabel{
+  background-color: white;
+  box-shadow: 0px 10px 10px rgb(220, 220, 220);
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.anime {
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+.anime td, .anime th{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.anime tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+.anime th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.action{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.eye{
+  margin-right: 1px;
+  margin-left: 1px;
+  height: 30px;
+  width: 30px;
+  background-color: teal;
+}
+
+.pen{
+  margin-right: 1px;
+  margin-left: 1px;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(0, 128, 62);
+}
+
+.dustbin{
+  margin-right: 1px;
+  margin-left: 1px;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 133, 2);
+}
