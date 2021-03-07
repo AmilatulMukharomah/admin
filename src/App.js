@@ -119,8 +119,14 @@ const App = () => {
             <td>Naruto</td>
             <td>537.000</td>
             <td>25.100</td>
-            <td>
+            <td className="action">
               <div className="eye">
+
+              </div>
+              <div className="pen">
+
+              </div>
+              <div className="dustbin">
 
               </div>
             </td>
@@ -129,8 +135,30 @@ const App = () => {
             <td>Nisekoi</td>
             <td>537.000</td>
             <td>25.100</td>
-            <td>
+            <td className="action">
               <div className="eye">
+
+              </div>
+              <div className="pen">
+
+              </div>
+              <div className="dustbin">
+
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Anohana</td>
+            <td>537.000</td>
+            <td>25.100</td>
+            <td className="action">
+              <div className="eye">
+
+              </div>
+              <div className="pen">
+
+              </div>
+              <div className="dustbin">
 
               </div>
             </td>
