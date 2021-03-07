@@ -54,14 +54,14 @@ code {
   height: 50px;
   width: 50px;
   border-radius: 10px;
-  
 }
 
 .views, .comments, .posts{
   height: 80px;
   width: 300px;
+  display: flex;
+  align-items: center;
   border-radius: 20px;
-  padding-top: 10px;
   padding-right: 20px;
   padding-left: 20px;
   color: white;
@@ -70,20 +70,22 @@ code {
 .views{
   background-image: linear-gradient(to right, #755cc1 , #ac7fda);
   
-  
 }
 
-.inviews{
+/* .inviews{
   display: flex;
-  align-items: flex-start;
-}
+  flex-direction: row;
+} */
 
 .inviews span{
   margin-left: 10px;
 }
 
 .outviews{
-  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
 }
 
 .comments{
@@ -110,10 +112,17 @@ code {
   padding-top: 10px;
   padding-right: 20px;
   padding-left: 20px;
+  display: flex;
+  flex-direction: column;
   flex-grow: 3;
   margin-right: 30px;
   font-size: 25px;
   
+}
+
+.navgrafik{
+  display: flex;
+  justify-content: space-between;
 }
 
 /* INI BUAT RECENT */
@@ -126,7 +135,7 @@ code {
   padding-right: 20px;
   padding-left: 20px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   flex-grow: 1;
   box-shadow: 0px 10px 10px rgb(220, 220, 220);
 }
@@ -135,6 +144,22 @@ code {
   font-size: 25px;
 }
 
+.navrecent{
+  display: flex;
+  justify-content: space-between;
+}
+
+.konten{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.rate{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
 
 
 
@@ -151,10 +176,11 @@ table{
   margin-top: 25px;
   margin-left: 50px;
   margin-right: 50px;
-  padding-top: 10px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
+
 
 .anime {
   border-collapse: collapse;

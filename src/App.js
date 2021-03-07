@@ -30,44 +30,64 @@ const App = () => {
       <hr className="garis" />
       <div className="topbar">
         <div className="views">
-          <div className="inviews">
-            <img className="icon" src={img2} alt=""></img>
-            <span className="judul">Total Views</span><br />
-          </div>
+          <img className="icon" src={img2} alt=""></img>
           <div className="outviews">
-            1.000.000
-          </div>
-
+            <span className="judul">Total Views</span>
+              1.000.000
+            </div>
         </div>
         <div className="comments">
-          <div className="inviews">
-            <img className="icon" src={img3} alt=""></img>
-            <span className="judul">Total comments</span>
-          </div>
+          <img className="icon" src={img3} alt=""></img>
           <div className="outviews">
+            <span className="judul">Total comments</span>
             54.000
           </div>
         </div>
         <div className="posts">
-          <div className="inviews">
-            <img className="icon" src={img4} alt=""></img>
-            <span className="judul">Total posts</span>
-          </div>
+          <img className="icon" src={img4} alt=""></img>
           <div className="outviews">
+            <span className="judul">Total posts</span>
             32
           </div>
         </div>
       </div>
       <div className="isi">
         <div className="grafik">
-          ini grafik
+          <div className="navgrafik">
+            <span className="judul">Visitor</span>
+            o o o
+          </div>
         </div>
         <div className="recent">
-          <span className="judul">Recent</span>
-          <span>View All</span>
+          <div className="navrecent">
+            <span className="judul">Recent</span>
+            <span>View All</span>
+          </div>
+          <div className="konten">
+            <img className="gambar" src={img1} alt="avatar" />
+            <div className="rate">
+              <span>Doraemon</span>
+              this is star
+            </div>
+          </div>
+          <div className="konten">
+            <img className="gambar" src={img1} alt="avatar" />
+            <div className="rate">
+              <span>Doraemon</span>
+              this is star
+            </div>
+          </div>
+          <div className="konten">
+            <img className="gambar" src={img1} alt="avatar" />
+            <div className="rate">
+              <span>Doraemon</span>
+              this is star
+            </div>
+          </div>
         </div>
       </div>
       <div className="tabel">
+        <span className="judul">TOP 10 ANIME</span>
         <table cellspacing="0" cellpadding="0" className="anime">
           <tr>
             <th className="name">Name</th>
