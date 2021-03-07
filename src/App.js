@@ -6,6 +6,7 @@ import img3 from './img/dot.png'
 import img4 from './img/doc.png'
 import img5 from './img/calendar.png'
 import img6 from './img/bell.png'
+import img7 from './img/search.png'
 
 const App = () => {
   return (
@@ -23,9 +24,12 @@ const App = () => {
         <div>
           <img className="gambar" src={img6} alt="avatar" />
         </div>
-        <form className="search">
-          <input type="text" placeholder="Search.." name="search" />
-        </form>
+        <div className="search">
+          <form >
+            <img className="cari" src={img7} alt="avatar" />
+            <input type="text" placeholder="Search.." name="search" />
+          </form>
+        </div>
       </div>
       <hr className="garis" />
       <div className="topbar">
